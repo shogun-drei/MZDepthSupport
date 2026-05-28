@@ -1,9 +1,9 @@
 /*:
  * @target MZ
  * @plugindesc Adds WebGL depth buffer support for Effekseer 3D effects.
- * @author shgun_drei
+ * @author shogun_drei
  *
- * @help EffekseerDepthBufferFix.js
+ * @help MZDepthBufferFix.js
  *
  * Load this plugin AFTER EffekseerForRPGMakerMZ_Ex.
  *
@@ -12,7 +12,7 @@
 (() => {
     "use strict";
 
-    const pluginName = "EffekseerDepthBufferFix";
+    const pluginName = "MZDepthBufferFix";
     const projectionDepthScale = 10.0;
 
     const logWarn = message => {
